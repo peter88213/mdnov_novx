@@ -28,9 +28,6 @@ from novxlib.novx_file import NovxFile
 class NovxConverter():
 
     def run(self, sourcePath):
-        if not os.path.isfile(sourcePath):
-            return
-
         sourceRoot, sourceExtension = os.path.splitext(sourcePath)
         if sourceExtension == NovxFile.EXTENSION:
             targetPath = f'{sourceRoot}{MdnovFile.EXTENSION}'
@@ -40,9 +37,17 @@ class NovxConverter():
             targetPath = f'{sourceRoot}{NovxFile.EXTENSION}'
             source = MdnovFile(sourcePath)
             target = NovxFile(targetPath)
+        else:
+            self.ui.set_info_how(f'!File format "{sourceExtension}" is not supported.')
+            return
+
+        if not os.path.isfile(sourcePath):
+            self.ui.set_info_how(f'!File not found: "{sourcePath}".')
+            return
+
         if os.path.isfile(targetPath):
             if not self.ui.ask_yes_no(f'Overwrite existing file "{norm_path(targetPath)}"?'):
-                self.ui.set_status('!Action canceled by user.')
+                self.ui.set_info_how('!Action canceled by user.')
                 return
 
         source.novel = Novel(tree=NvTree())
