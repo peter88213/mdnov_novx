@@ -54,7 +54,7 @@ class NovxConverter():
         source.read()
         target.novel = source.novel
         target.write()
-        self.ui.set_info_how(f'File written: "{norm_path(targetPath)}"')
+        self.ui.set_info_how(f'File written: "{norm_path(targetPath)}".')
 
 
 def main(sourcePath, suffix=''):
