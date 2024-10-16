@@ -1,0 +1,6 @@
+/src/locale/
+/test/work/
+/test/mdnov_novx.py
+/build/
+*.pyc
+*.bak

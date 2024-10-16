@@ -1,0 +1,1724 @@
+@@book
+    
+---
+Title: Hal Spacejock book one - Sample yWriter Project
+Author: Simon Haynes
+---
+
+
+
+
+%%
+
+
+@@ch33
+    
+---
+Title: Info
+type: 1
+---
+
+
+
+%%
+
+
+@@sc120
+    
+---
+Title: Information about the sample project
+type: 1
+Characters: cr1
+---
+
+
+
+
+%%Content:
+
+*** IMPORTANT ***
+
+Uninstalling yWriter5 will uninstall (delete) this sample project.
+
+Reinstalling yWriter5 will overwrite this sample project.
+
+Therefore, rather than modifying this project with your own content, **please create a new project for your own work**. (*Project - Create Empty Project*, or *Project - New Project Wizard*)
+
+Any new projects created with yWriter5 will not be deleted, overwritten or modified when you uninstall or reinstall the software.
+
+%%
+
+@@ch34
+    
+---
+Title: Part 1
+level: 1
+---
+
+
+
+%%
+
+
+@@ch1
+    
+---
+Title: Chapter 1
+---
+
+
+
+%%
+
+
+@@sc1
+    
+---
+Title: Meet Hal, threatened by Vurdi
+status: 4
+Day: 1
+Characters: cr1;cr10;cr4;cr11
+Locations: lc1;lc2
+---
+
+
+%%Desc:
+
+Hal Spacejock is aboard his ship, the Black Gull, which is parked at the spaceport on planet Lamira. Hal's waiting for a cargo job, he's not fussy as long as it's legal. So far, after several days, the only jobs he's been offered have involved smuggling, gun-running or drugs.
+
+Always short of money, Hal has arranged an interview with his financial backers in the hope of increasing his loan. There's a knock, but when Hal goes to let the loan people in he's confronted by a large robot which pins him to the deck. It's Brutus, an enforcer belonging to Vurdi the debt collector. Vurdi enters and explains that he's arrived to collect overdue payments on behalf of the loan company. Hal is confused, he thought they were supposed to be lending him money. Vurdi explains that it was a ploy to get aboard, since the company has had trouble getting face-to-face with Hal.
+
+Hal doesn't have any money, so Vurdi says he'll take an arm or leg instead, and sets Brutus on him.
+
+During the scuffle, Hal manages to tell Vurdi that he accepted a cargo job earlier in the day, and will use the proceeds to settle his debts. Vurdi is suspicious, but calls Brutus off and gives Hal 24 hours.
+
+After Vurdi leaves, Hal discusses things with the Black Gull's onboard computer (the Navcom), reviewing the cargo jobs he's been offered. He chooses the one which sounds less risky than the others, a freight job offered by the Jerling corporation. The Navcom objects, reminding Hal that he turned it down earlier because he thought it involved stolen goods. Hal doesn't care - he can't afford to be choosy any more.
+
+%%Notes:
+
+This is a note. Notice how the N icon shows up when there's a note attached to a scene.
+
+
+
+%%Content:
+
+Hal Spacejock was sitting at the *Black Gull's* flight console, his attention riveted to a small chessboard balanced amongst the toggle switches, flashing lights and status displays. a few weeks earlier he'd read an article extolling the benefits of the ancient game: how playing it would sharpen his mind, improve his memory and increase his attraction to the opposite sex. Chess had been an important part of his daily routine ever since, but after two hundred and seventy-six losses in a row Hal was beginning to doubt the article's claims. He didn't feel any smarter and he couldn't remember the last time he'd spoken to a member of the opposite sex, let alone had one attracted to him. Briefly, he wondered whether it had been such a clever idea to play against the Navcom, the Black Gull's onboard computer. Underpowered and outdated, it was still more than capable of running the ship's accounts, navigation and life support systems while beating humans at simple board games. However, since Hal was the only human aboard the Black Gull, his choice of opponents was limited.
+
+"Your turn," said the Navcom, in a neutral female voice.
+
+"I'm thinking."
+
+"While you're planning your opening move, can I tell you about a special offer?"
+
+"What kind of offer?" asked Hal suspiciously.
+
+"Planet books have a chess title on sale."
+
+"Really? Put it on main."
+
+The wide viewscreen above the console turned red, and the word 'SaLE' appeared in vibrating yellow text. The letters grew legs and marched off the screen, bringing a wire basket on wheels into view.
+
+"I don't need all this crap," said Hal. "Just show me the deal."
+
+"Almost there," said the Navcom. "Keep watching."
+
+A flock of pigeons burst from the basket, leaving a tumbling cloud of feathers which dropped to the ground and formed the words 'Special Offer'. a gust of wind blew the feathers away, and a book title flashed up on the screen.
+
+"Chess for the intellectually challenged?" said Hal, staring at the cover in disbelief. "Is this some kind of joke?"
+
+"It's part of a popular series," said the Navcom.
+
+"What are the others? Interstellar navigation for nutters? Moon landings for morons?"
+
+"Shall I add those titles to your basket?"
+
+. . .
+
+%%
+
+@@ch2
+    
+---
+Title: Chapter 2
+---
+
+
+
+%%
+
+
+@@sc2
+    
+---
+Title: Jerling buys team. Discusses Seraph.
+status: 4
+Characters: cr2;cr7
+Locations: lc3;lc4
+---
+
+
+%%Desc:
+
+Walter Jerling is a businessman on Forg, a planet in the same star system as Lamira. He owns several enterprises - real estate, factories, etc. We meet him at the grand opening of a new sky hockey stadium, puffing on his cigar and finishing off the ceremony without much enthusiasm. After a smattering of polite applause from the small crowd, he departs in his limo. 
+
+In the car he complains that he's little more than a figurehead, hopping from one PR exercise to the next. He recalls the early days, when he was personally involved in everything. His assistant, Carina, reminds him that he was running himself ragged before he mastered the art of delegating. Jerling replies that delegating can lead to people ripping him off or revealing company secrets to the Hinchfigs (competitors). Moans that the Hinchfigs get bigger crowds at their openings, Carina points out that they pay the crowds more to turn up.
+
+Jerling catches up on a few minor business matters. He reluctantly approves the recycling of older company equipment (including several robots), then digs until Carina gives him something more interesting to think about. He discovers there's a freight job which is going wrong, and as the limo draws into the head office carpark Jerling decides to handle it himself.
+
+He examines the Seraph file. There's a shipment of robot parts ordered and paid for, but the source planet (Seraph IV) is in the middle of war games and the massed ships of the Seraph Space Corps have already shot down three unarmed freighters by mistake. The parts are needed urgently by Jerling's assembly line, they're putting together a last-minute order of robots for the Emperor's summer palace. Late delivery isn't an option.
+
+Carina explains that they can't risk their own ships, they wouldn't be covered by insurance and anyway, none of their pilots will fly into the danger zone. They tried to hire a freelancer but none of them wanted the job either - they were all warned off by a Spacers Guild bulletin. Jerling asks why they didn't try non-Guild pilots, Carina explains that they could only locate one and he turned it down because he was convinced it was a stolen goods racket. Jerling is annoyed that his staff hid the problem from him. Carina explains that they didn't want to worry him.  Jerling says they should have come to him before, this is important, if they lose preferred supplier status his business is at risk, and worse still the Hinchfigs will gain on him.
+
+Jerling asks Carina to call the idiot, the one who thought it was stolen goods. Before the assistant makes the call, she discovers that there's a message from the 'idiot' already - he wants the job. Carina tries to pursuade Jerling that others can deal with the issue but Jerling's fired up and won't let go, it's his pet project.
+
+
+
+%%Content:
+
+On planet Forg, a small crowd had gathered outside the local sky hockey stadium. South Forgberg was not a prosperous area - the semi-detached houses were modest and the residents faced a constant struggle to live within their means. It was unusual to see building work or renovations, so the extensive refurbishment to the decrepit old stadium had been a talking point for months.
+
+. . .
+
+%%
+
+@@sc3
+    
+---
+Title: Hal takes a call from Jerling
+status: 4
+Characters: cr1;cr10;cr2
+Locations: lc1
+---
+
+
+%%Desc:
+
+Back with Hal, Jerling's call comes through and the businessman explains about his cargo, reassures Hal it's not stolen goods, then explains he has a pilot at the Lamira Spaceport (the same location as Hal) who needs a lift to Seraph IV. If Hal can take him, the pilot will return the favour by landing Hal's ship when they arrive at the destination.
+
+Hal says he doesn't need help, Jerling explains that the landing is at night, with no guidance. This makes Hal suspicious about the job again, but he decides that nothing could be worse than another session with Brutus. Jerling reassures him that the pilot can handle everything and reminds him that delivery is to his premises on Forg. Hal agrees to the job, starts to ask for an advance but Jerling disconnects.
+
+
+
+%%Content:
+
+Hal was pacing the Black Gull's flight deck, ready to put his fist through the nearest wall. "What do you mean, you can't call Jerling back? What do you mean you didn't save his details?"
+
+"I erased the record after you turned the job down."
+
+"So look it up again!"
+
+"Negative, we can't afford the search fees." The Navcom hesitated. "Incidentally, it's your move."
+
+"How can you think of a bloody chess game at a time like this?"
+
+"You're only saying that because you're losing."
+
+. . .
+
+%%
+
+@@ch3
+    
+---
+Title: Chapter 3
+---
+
+
+
+%%
+
+
+@@sc4
+    
+---
+Title: Clunk arrives
+status: 4
+Characters: cr1;cr3;cr10
+Locations: lc1
+---
+
+
+%%Desc:
+
+The Navcom tells Hal someone is waiting outside the ship. Hal assumes it's the new pilot and goes to the airlock to admit them. Instead of a human, there's a robot outside, and for a moment Hal thinks Brutus has returned. It isn't though, it's a run-down, obsolete robot with mismatched legs and a squashy, furrowed face. The geriatric robot smiles at Hal and explains politely that it's Jerling's pilot.
+
+Hal closes the airlock in its face, runs to the flight deck and calls Jerling. He protests that an old robot like that can't possibly land his valuable ship. Jerling explains that the robot is an experienced pilot. After some discussion, Hal accepts the situation. He goes back to the airlock, lets Clunk in but sends him to the cargo hold.
+
+Hal prepares the ship for takeoff, but ground control won't let him leave. The Port Commander wants to see him in person. Hal leaves the ship, putting Clunk in charge.
+
+
+
+%%Content:
+
+"No sign of Jerling's pilot," said Hal, who was standing in the Black Gull's airlock peering through a scratched, yellowed porthole. He cupped his hands to the plastic and squinted, but it made little difference. "There could be an army out there and I wouldn't know it."
+
+"Why don't you open the door?" asked the Navcom.
+
+"No thanks. Vurdi's robot might be hanging around."
+
+. . .
+
+%%
+
+@@ch4
+    
+---
+Title: Chapter 4
+---
+
+
+
+%%
+
+
+@@sc5
+    
+---
+Title: Hal going to port control
+status: 4
+Characters: cr1
+Locations: lc2
+---
+
+
+%%Desc:
+
+Hal leaves his ship via the boarding ramp. (The Black Gull has two ramps - a large, heavy-duty cargo ramp which vehicles and robots use to load the ship, and a smaller boarding ramp which folds out from the side of the ship and admits visitors to the flight deck via an airlock.)
+
+He has to get to ground control, but they won't send a cab because of his unpaid account. He spots a robot mending fuel pipes near the back of the ship and asks whether he can borrow its vehicle (A battered old jet-powered ute). The robot refuses.
+
+Hal decides to walk and sets off across the field towards the distant buildings, but the field is covered in thick shoulder-high grasses with spore pods (Like knotted pampas grass). After struggling heroically, Hal gives up and returns in a bad temper. Approaching the landing pad again, he ducks down in the grass and sneaks towards the maintenance robot's vehicle, intending to borrow it. He's about to clamber aboard when the robot snaps something on the fuel pipes, causing a gushing leak. Hal ducks as the robot returns to the vehicle and grabs a tool kit.
+
+While the robot is busy mending the pipes, Hal leaps into the vehicle and starts it up. The robot spots him and pursues. The vehicle accelerates, but the robot manages to grab hold and swing itself aboard. Hal wiggles the joystick and the wild movements throw the robot from side to side, battering it against the sides of the tray. One last violent twist of the controls hurls the robot from the back of the vehicle, and it cartwheels through the grass before coming to a halt in a sparking, smoking huddle.
+
+Hal drives off, oblivious to the flames starting to flicker around the fallen robot.
+
+
+
+%%Content:
+
+Hal emerged from the Black Gull's airlock, blinking in the sudden light. On the far side of the landing field the sun was setting behind the Lamira spaceport's administration block, which shimmered in the late afternoon heat. Clustered around the spaceport buildings were the 'A' list - modern, powerful ships fitted with every comfort. Parked close to the amenities, their crews could dine at one of several restaurants, enjoy the heated swimming pool and browse the shopping arcade at their leisure.
+
+Hal's ship was somewhat further down the alphabet, and was therefore sitting in a disused corner of the field about as far from the amenities as the nearest moon. The area around the *Black Gull* was little more than a graveyard for derelicts, and most of the landing pads nearby were occupied by graffiti-splashed wrecks with jagged gaps in their crumpled hulls. Some of the ships seemed familiar, and when Hal looked closer he realised the rusted hulks were Rigel-class freighters like his own. One or two were actually in better shape.
+
+. . .
+
+%%
+
+@@sc6
+    
+---
+Title: Clunk checking computer for Incubots.
+status: 4
+Characters: cr3;cr10
+Locations: lc1
+---
+
+
+%%Desc:
+
+Aboard the Black Gull, Clunk is curious. He knows he's being sent to Incubots on Seraph IV, but nobody has told him why. He searches the Black Gull's outdated computer for information on the company. (There's an equivalent to the internet called Galnet, but Hal can't afford the fees so his ship has a snapshot about 5 or 6 years old.) Clunk discovers that Incubots makes parts for new robots and replacement parts for older models. He's relieved, because Jerling's staff were vague about the reason for his trip, and it's fairly common for Jerling's older, obsolete robots to be sent to out-of-the-way planets, never to return. Now it seems he's to be upgraded, which is good news because he's got long list of worn parts which need replacements.
+
+Sitting at the console, Clunk uses the Black Gull's simulation mode to practice a couple of landings, then veers off and dreams he's flying the ship to a mythical robot planet.
+
+
+
+%%Content:
+
+Clunk dropped the last chess piece into the small wooden box and looked around the flight deck. Despite his best efforts with the mop, it didn't look particularly clean, but compared to its previous state it was as sterile as a hospital ward. After a moment's hesitation, he sat in the pilot's chair. "Navcom, do you have a business directory?"
+
+"Yes."
+
+"Run a search, please. All details on a company called Incubots."
+
+There was a brief pause. "Owned by Redge Muller. Incubots specialises in robot programming and advanced pilot training."
+
+Clunk looked relieved. "So that's what Mr. Jerling has in store for me. When I questioned him on the subject he was rather evasive."
+
+"Humans tell lies about the most trivial matters."
+
+. . .
+
+%%
+
+@@sc7
+    
+---
+Title: Hal talking to the Portmaster
+status: 4
+Characters: cr1;cr12
+---
+
+
+%%Desc:
+
+Hal is waiting in reception outside the Portmaster's office, browsing a magazine. He reads an article about overclocked robot brains being used in new robots, saving money but leading to risk of explosion. Hal wonders if Clunk is fitted with a defective brain - if any - and figures it would be just his luck if Jerling's robot turned his ship into a fiery wreck while he was sitting around waiting for petty officials.
+
+The Portmaster invites him into his office, and Hal discovers there are overdue landing fees, stamp duty, fuel, snacks, etc etc to pay for. The Port of Lamira is going to auction Hal's ship to recover debts. Hal protests that he has a job which will cover the fees, but the Portmaster doesn't believe him.
+
+Hal decides to call his brand new best buddy Clunk, thinking the robot can ask Jerling for an advance on his fee.
+
+
+
+%%Content:
+
+Hal left the maintenance vehicle in the spaceport's outer carpark and walked to the admin block. An information kiosk directed him to an elevator, where he pressed the button marked 'Portmaster'.
+
+Hal watched the floor numbers changing as he dropped further and further underground. He'd expected the Portmaster to have a spacious office with a view of the whole landing field, but instead he seemed to have an office in the basement. Below the basement, amended Hal, eying the elevator's control panel. He'd passed that already.
+
+. . .
+
+%%
+
+@@sc8
+    
+---
+Title: Clunk takes call from Hal. Calls Jerling. Fire.
+status: 4
+Characters: cr3;cr2;cr1;cr10
+Locations: lc1
+---
+
+
+%%Desc:
+
+Clunk tells Hal that Jerling won't advance any money, but Hal tells him to ask anyway. Clunk calls Jerling, who won't advance any money. Clunk mentions that he's found out what Incubots is all about, Jerling hangs up quickly.
+
+Clunk notices smoke in the air. He runs to the airlock and discovers the landing field is on fire.
+
+
+
+%%Content:
+
+"Simulation suspended, incoming message."
+
+The cloud cities of Aklam faded from Clunk's vision. "What?"
+
+"Incoming message."
+
+"Are we meant to answer it?"
+
+"It's Mr. Spacejock," said the Navcom.
+
+Clunk sat up straight. "Please open the connection."
+
+"Hey, robot!" called Hal.
+
+"Yes, sir?"
+
+"Call Jerling and get me a loan. I need three hundred in cash for landing fees and fuel."
+
+"I don't think he'll lend you any money," said Clunk dubiously.
+
+. . .
+
+%%
+
+@@ch5
+    
+---
+Title: Chapter 5
+---
+
+
+
+%%
+
+
+@@sc9
+    
+---
+Title: Clunk calls, the landing field is on fire. Hal tells him to sit tight.
+status: 4
+Characters: cr1;cr3;cr12
+---
+
+
+%%Desc:
+
+Hal is sitting with the Portmaster, waiting for a call from Clunk to say he's got the advance from Jerling. Instead, Clunk calls to say that raging flames are threatening the ship. Hal tells him to sit tight, and leaps up to go to the rescue. The Portmaster stops him - you're not fooling me, sonny, I've heard every excuse in the book. Hal protests, but the Portmaster is firm. He says the maintenance robot working near the Black Gull would have called in if anything was wrong.
+
+Then the control tower calls to say the landing field is on fire around the Black Gull.
+
+
+
+%%Content:
+
+Portmaster Linten studied Hal across the desk, eyes narrowed. "Are you telling me this Jerling character will pay your bill?"
+
+"He has to. I can't deliver his cargo if the Gull is stuck here, can I?"
+
+The commset buzzed and Linten leant forward. "Yes?"
+
+There was a crackling sound. "Help! Fire!" said a voice over the noise.
+
+"Who is this? What are you talking about?"
+
+"The grass is burning," cried the voice. "There's a fire on the landing field!"
+
+"Which pad?"
+
+"Fifty-two," said Hal, smothering a grin. "That's Clunk." He leant towards the commset. "Clunk, is the ship in danger from this, er, fire?"
+
+"Not yet, Mr Spacejock, but it soon will be. Would you like me to move it out of the way?"
+
+"You keep your hands off the controls. I'll be there in a tick."
+
+"You'll have to hurry, the fire's right up to the refuelling cluster. If that explodes--"
+
+. . .
+
+%%
+
+@@sc10
+    
+---
+Title: Clunk fighting the fire, ends up face-down
+status: 4
+Characters: cr3;cr10
+---
+
+
+%%Desc:
+
+Aboard the Black Gull, Clunk wrenches panels off the walls looking for a fire extinguisher. Crunches the winch controls, lowering a hook to the ground and spooling all the cable out with it. Finally gets the extinguisher and heads outside.
+
+He finds the source of the fire - the maintenance robot which Hal disabled. Clunk drags it out of the area, then returns and uses the fire extinguisher on the flames.
+
+Clunk's battery starts to run low. He continues. As the fire extinguisher begins to run low, the fuel pipes explode near the back of the ship. A piece of debris hits Clunk in the head and he falls to the ground, stunned.
+
+
+
+%%Content:
+
+"Deploy fire hose!" shouted Clunk.
+
+"Deploying." There was a whining sound outside the hull, which stopped with a sharp crack.
+
+"What was that?"
+
+"The reel just fell off," said the Navcom.
+
+. . .
+
+%%
+
+@@ch6
+    
+---
+Title: Chapter 6
+---
+
+
+
+%%
+
+
+@@sc58
+    
+---
+Title: New Scene
+type: 1
+Characters: cr1
+---
+
+
+
+
+%%Content:
+
+This bird is not dead ...
+
+%%
+
+@@sc12
+    
+---
+Title: Hal gets to the ship and lifts off.
+status: 4
+Characters: cr1
+---
+
+
+%%Desc:
+
+Arriving at the Black Gull, Hal sees the prone robot in the burnt-out grass. (It's Clunk, but he assumes it's the one he disabled)  Goes aboard, seals the ship and gets the engines going. Discovers the winch has been lowered, presses the button to raise it. Prepares ship for takeoff and takes his seat.
+
+
+
+%%
+
+@@ch7
+    
+---
+Title: Chapter 7
+---
+
+
+
+%%
+
+
+@@sc15
+    
+---
+Title: Hal finds Clunk on rope, falls out after him.
+status: 4
+Characters: cr1
+---
+
+
+%%Desc:
+
+The Black Gull is roaring into the sky with Hal at the controls. The Lamira Portmaster calls and rages about the ship's sudden departure, Hal was only supposed to move it out of danger, not blast off into space. Hal says he'll be back to pay the fees. The Portmaster says he's going to spread the word about Hal, banning him from every port in the local system.
+
+Talking to the Navcom, Hal suddenly discovers Clunk isn't aboard. There's a clunking noise as the winch tries to retract, but it's jammed. An image appears on screen - Clunk is dangling from the hook outside.
+
+Hal gets the ship to hover 4,000 metres above the landing field, then goes outside on the landing platform to help. Throws Clunk a line and starts to pull the robot in, but a departing ship roars past, rocking the Black Gull and hurling Hal over the side of the platform. He ends up dangling from the safety cord, which is tied to the robot's leg.
+
+Clunk's batteries are failing, and he can't hang on much longer.
+
+
+
+%%
+
+@@ch8
+    
+---
+Title: Chapter 8
+---
+
+
+
+%%
+
+
+@@sc17
+    
+---
+Title: Climb up rope to safety. Back in ship for hyperspace.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch9
+    
+---
+Title: Chapter 9
+---
+
+
+
+%%
+
+
+@@sc19
+    
+---
+Title: In his office. Gordon OKs the deal
+status: 4
+Characters: cr5
+---
+
+
+
+
+%%
+
+@@ch10
+    
+---
+Title: Chapter 10
+---
+
+
+
+%%
+
+
+@@sc22
+    
+---
+Title: Exits the ship to meet Bevan
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch11
+    
+---
+Title: Chapter 11
+---
+
+
+
+%%
+
+
+@@sc25
+    
+---
+Title: Getting food out. Frozen puddings.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@sc27
+    
+---
+Title: Says goodbye to Clunk
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch12
+    
+---
+Title: Chapter 12
+---
+
+
+
+%%
+
+
+@@sc29
+    
+---
+Title: Hal depressed. No escape from here.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@sc31
+    
+---
+Title: Lighten the ship. Preparing for liftoff.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch13
+    
+---
+Title: Chapter 13
+---
+
+
+
+%%
+
+
+@@sc34
+    
+---
+Title: Karl and Terry awaiting Hal. They take a call from their spy, intercept is at the orbiter.
+status: 4
+Characters: cr5
+---
+
+
+
+
+%%
+
+@@ch14
+    
+---
+Title: Chapter 14
+---
+
+
+
+%%
+
+
+@@ch15
+    
+---
+Title: Chapter 15
+---
+
+
+
+%%
+
+
+@@sc38
+    
+---
+Title: Karl waiting impatiently
+status: 4
+Characters: cr5
+---
+
+
+
+
+%%
+
+@@sc40
+    
+---
+Title: Karl and Terry confused about 'Chunk'
+status: 4
+Characters: cr5
+---
+
+
+
+
+%%
+
+@@ch16
+    
+---
+Title: Chapter 16
+---
+
+
+
+%%
+
+
+@@sc43
+    
+---
+Title: Clunk slips out the back.
+status: 4
+Characters: cr3
+---
+
+
+
+
+%%
+
+@@sc45
+    
+---
+Title: Karl and Terry waiting.
+status: 4
+Characters: cr5
+---
+
+
+
+
+%%
+
+@@ch17
+    
+---
+Title: Chapter 17
+---
+
+
+
+%%
+
+
+@@sc47
+    
+---
+Title: Clunk in orbit
+status: 4
+Characters: cr3
+---
+
+
+
+
+%%
+
+@@sc49
+    
+---
+Title: Clunk uses cylinder
+status: 4
+Characters: cr3
+---
+
+
+
+
+%%
+
+@@ch35
+    
+---
+Title: Part 2
+level: 1
+---
+
+
+
+%%
+
+
+@@ch18
+    
+---
+Title: Chapter 18
+---
+
+
+
+%%
+
+
+@@sc51
+    
+---
+Title: Terry places the 'bomb'
+status: 4
+Characters: cr6
+---
+
+
+
+
+%%
+
+@@sc53
+    
+---
+Title: Hal buys food
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch19
+    
+---
+Title: Chapter 19
+---
+
+
+
+%%
+
+
+@@sc55
+    
+---
+Title: Karl leaves a note, takes Clunk.
+status: 4
+Characters: cr5
+---
+
+
+
+
+%%
+
+@@sc57
+    
+---
+Title: Hal about to hyperspace.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch20
+    
+---
+Title: Chapter 20
+---
+
+
+
+%%
+
+
+@@sc60
+    
+---
+Title: Hal gets real Jerling's call. Has to get cargo and robot back.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@sc62
+    
+---
+Title: Hal sets course for Forg.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@sc64
+    
+---
+Title: Land on Forg, in rubbish.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch21
+    
+---
+Title: Chapter 21
+---
+
+
+
+%%
+
+
+@@sc66
+    
+---
+Title: Hal rents a car in Jerling's name and heads towards Forgberg and the Casino.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@sc68
+    
+---
+Title: Hal after almost running Clunk down. Picks him up.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch22
+    
+---
+Title: Chapter 22
+---
+
+
+
+%%
+
+
+@@sc71
+    
+---
+Title: Find car, go to find clothes.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch23
+    
+---
+Title: Chapter 23
+---
+
+
+
+%%
+
+
+@@sc74
+    
+---
+Title: Hal sells Clunk
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch24
+    
+---
+Title: Chapter 24
+---
+
+
+
+%%
+
+
+@@sc77
+    
+---
+Title: Hal annoyed at Clunk for buying only the best.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@sc79
+    
+---
+Title: Clunk gambling. Fight with human couple.
+status: 4
+Characters: cr3
+---
+
+
+
+
+%%
+
+@@sc81
+    
+---
+Title: Sitting on the steps, battered and bruised. Limo arrives for Karl.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch25
+    
+---
+Title: Chapter 25
+---
+
+
+
+%%
+
+
+@@sc84
+    
+---
+Title: Clunk travelling on the back of Karl's limo
+status: 4
+Characters: cr3
+---
+
+
+
+
+%%
+
+@@sc86
+    
+---
+Title: Clunk sees Hal catching up again. Limo stops.
+status: 4
+Characters: cr3
+---
+
+
+
+
+%%
+
+@@ch26
+    
+---
+Title: Chapter 26
+---
+
+
+
+%%
+
+
+@@sc89
+    
+---
+Title: Clunk uploads the Navcom into the ship.
+status: 4
+Characters: cr3
+---
+
+
+
+
+%%
+
+@@ch27
+    
+---
+Title: Chapter 27
+---
+
+
+
+%%
+
+
+@@sc92
+    
+---
+Title: The shop robots want Clunk to escape with them. Mention Hal's capture.
+status: 4
+Characters: cr3
+---
+
+
+
+
+%%
+
+@@sc94
+    
+---
+Title: Clunk steals armoured car, drives it into the house.
+status: 4
+Characters: cr3
+---
+
+
+
+
+%%
+
+@@ch28
+    
+---
+Title: Chapter 28
+---
+
+
+
+%%
+
+
+@@sc96
+    
+---
+Title: Karl and Terry take the limo
+status: 4
+Characters: cr5
+---
+
+
+
+
+%%
+
+@@sc98
+    
+---
+Title: Karl and Terry overtake and head for Spaceport. Looking for Volante.
+status: 4
+Characters: cr5
+---
+
+
+
+
+%%
+
+@@ch29
+    
+---
+Title: Chapter 29
+---
+
+
+
+%%
+
+
+@@sc101
+    
+---
+Title: Hal and Clunk fleeing in Gull
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@sc103
+    
+---
+Title: Clunk wants to throw stuff at the flyer
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@sc105
+    
+---
+Title: Hal fetches the puddings.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch30
+    
+---
+Title: Chapter 30
+---
+
+
+
+%%
+
+
+@@sc108
+    
+---
+Title: Hal yells at Jerling, then cargo arrives on truck.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@sc110
+    
+---
+Title: Clunk outside, depressed.
+status: 4
+Characters: cr3
+---
+
+
+
+
+%%
+
+@@sc112
+    
+---
+Title: Karl bursts in, armed.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch31
+    
+---
+Title: Chapter 31
+---
+
+
+
+%%
+
+
+@@sc114
+    
+---
+Title: Terry ties Hal in hold, leaves back doors open.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@sc116
+    
+---
+Title: Hal dodges Brutus, escapes the hold.
+status: 4
+Characters: cr1
+---
+
+
+
+
+%%
+
+@@ch32
+    
+---
+Title: @Chapter 32
+---
+
+
+
+%%
+
+
+@@sc119
+    
+---
+Title: Black Gull hyperspaces to oblivion
+status: 4
+Characters: cr5
+---
+
+
+
+
+%%
+
+@@cr1
+    
+---
+Title: Hal
+Aka: Spacejock
+FullName: Hal Spacejock
+---
+
+
+%%Bio:
+
+Somehow, Hal Spacejock ended up in the cargo game. With a loan from a dodgy operator and a ship from the wrong side of the nearest junkyard he works the back reaches of the galaxy. A couple of important things about Hal - he's determined to stay on the right side of the law, and he has a strong sense of justice.
+
+
+%%
+
+
+@@cr2
+    
+---
+Title: Jerling
+Aka: Walter
+FullName: Walter Jerling
+---
+
+
+%%Bio:
+
+Walter Jerling runs a conglomerate spanning several planets. Ruthless and wealthy, he's never forgotten his more modest roots and watches his money carefully.
+
+%%Goals:
+
+One of his companies needs an urgent shipment of parts to complete a set of new robots for the Emperor.
+
+
+%%
+
+
+@@cr3
+    
+---
+Title: Clunk
+Aka: XG99
+FullName: Clunk XG99
+---
+
+
+%%Bio:
+
+Aging humanoid robot owned by Walter Jerling's company, Clunk is being shipped off for reprogramming and advanced pilot training.
+
+%%Goals:
+
+Undergo a refit and advanced pilot training, making him even more useful to his owner.
+
+
+%%
+
+
+@@cr4
+    
+---
+Title: Vurdi
+FullName: Vurdi Makalukar
+---
+
+
+%%Bio:
+
+A freelance debt collector looking for that one big client to shake down. Has his sights on Hal and Farrell.
+
+
+%%
+
+
+@@cr5
+    
+---
+Title: Farrell
+FullName: Farrell Hinchfig
+---
+
+
+%%Bio:
+
+Younger brother of Gordon Hinchfig, Farrell is a wastrel playboy whose money has been cut off.
+
+%%Goals:
+
+Pay off his gambling debts
+
+
+%%
+
+
+@@cr6
+    
+---
+Title: Terry
+---
+
+
+%%Bio:
+
+Farrell's driver, bodyguard and dirty tricks man. Rough and tough, not someone to cross.
+
+%%Goals:
+
+Whatever Farrell wants.
+
+
+%%
+
+
+@@cr7
+    
+---
+Title: Carina
+FullName: Carina Rinoret
+---
+
+
+%%Bio:
+
+Walter Jerling's private assistant
+
+%%Goals:
+
+Bit player
+
+
+%%
+
+
+@@cr8
+    
+---
+Title: Mike
+---
+
+
+%%Bio:
+
+Computer expert at Hinchfig Enterprises.
+
+%%Goals:
+
+Bit player
+
+
+%%
+
+
+@@cr9
+    
+---
+Title: Gordon
+FullName: Gordon Hinchfig
+---
+
+
+%%Bio:
+
+Owner of Hinchfig Enterprises, which he inherited from his parents. His father had business acumen and a flair for new products. Gordon has none, and so he slavishly follows his late father's methods with little of his success. His lack of business nous is the reason the company is in trouble, and the reason Farrell Hinchfig no longer has cash to throw around.
+
+%%Goals:
+
+Revitalise the company
+
+
+%%
+
+
+@@cr10
+    
+---
+Title: Navcom
+---
+
+
+%%Desc:
+
+The Black Gull's flight computer
+
+
+%%
+
+
+@@cr11
+    
+---
+Title: Brutus
+---
+
+
+%%Desc:
+
+Vurdi's enforcer robot.
+
+
+%%
+
+
+@@cr12
+    
+---
+Title: Portmaster
+FullName: Portmaster Linten
+---
+
+
+
+%%
+
+
+@@lc1
+    
+---
+Title: Black Gull
+---
+
+
+%%Desc:
+
+Hal's ship, a decrepit old freighter he bought with a dodgy loan
+
+
+%%
+
+
+@@lc2
+    
+---
+Title: Lamira Spaceport
+---
+
+
+
+%%
+
+
+@@lc3
+    
+---
+Title: Planet Forg
+---
+
+
+
+%%
+
+
+@@lc4
+    
+---
+Title: Jerling Enterprises
+---
+
+
+
+%%
+
+
+@@pn1
+    
+---
+Title: About the sample project
+---
+
+
+%%Desc:
+
+This sample project contains the outline and content for the first five chapters of my original published novel, Hal Spacejock.
+
+
+%%
+
+
+
+
+%%
