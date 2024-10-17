@@ -28,7 +28,7 @@ from mdnvlib.novx_globals import _
 from mdnvlib.novx_globals import list_to_string
 from mdnvlib.novx_globals import norm_path
 from mdnvlib.novx_globals import string_to_list
-from mdnvlib.xml.xml_indent import indent
+from novxlib.xml_indent import indent
 import xml.etree.ElementTree as ET
 
 

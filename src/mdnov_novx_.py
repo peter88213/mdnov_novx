@@ -1,5 +1,10 @@
+#!/usr/bin/python3
 """Converter between .mdnov and .novx file format.
 
+usage: mdnov_yw7.py sourcefile
+
+Version @release
+Requires Python 3.6+
 Copyright (c) 2024 Peter Triesberger
 For further information see https://github.com/peter88213/mdnov_novx
 License: GNU LGPLv3 (https://www.gnu.org/licenses/lgpl-3.0.en.html)
