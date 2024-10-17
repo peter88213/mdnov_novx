@@ -28,6 +28,10 @@ information may be lost during the conversion process.
   Other formatting is not converted. 
 - *novx* language information, comments, footnotes, and endnotes are lost. 
 
+## Feedback
+
+Post a message in the [mdnovel discussions forum](https://github.com/peter88213/mdnovel/discussions/).
+
 ## License
 
 This is Open Source software, and *mdnov_novx* is licensed under GPLv3. See the
