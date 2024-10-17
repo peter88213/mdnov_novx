@@ -2,7 +2,7 @@
 
 Converter between .mdnov and .novx file format.
 
-This is a command line tool for migrating projects between 
+This is a command line tool for migrating novel projects between 
 [mdnovel](https://github.com/peter88213/mdnovel) and
 [novelibre](https://github.com/peter88213/novelibre).
 
