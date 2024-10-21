@@ -3,7 +3,7 @@
 
 usage: mdnov_yw7.py sourcefile
 
-Version 0.1.0
+Version 0.2.0
 Requires Python 3.6+
 Copyright (c) 2024 Peter Triesberger
 For further information see https://github.com/peter88213/mdnov_novx
@@ -2581,6 +2581,8 @@ $Links$Desc
         self._keep_word_count()
 
     def write(self):
+        self._update_word_count_log()
+        self.adjust_section_types()
         super().write()
         self._get_timestamp()
 
@@ -3115,16 +3117,8 @@ class NovxFile(File):
         self._read_chapters(xmlRoot)
         self._read_plot_lines(xmlRoot)
         self._read_project_notes(xmlRoot)
+        self._read_word_count_log(xmlRoot)
         self.adjust_section_types()
-
-        xmlWclog = xmlRoot.find('PROGRESS')
-        if xmlWclog is not None:
-            for xmlWc in xmlWclog.iterfind('WC'):
-                wcDate = xmlWc.find('Date').text
-                wcCount = xmlWc.find('Count').text
-                wcTotalCount = xmlWc.find('WithUnused').text
-                if wcDate and wcCount and wcTotalCount:
-                    self.wcLog[wcDate] = [wcCount, wcTotalCount]
         self._get_timestamp()
         self._keep_word_count()
 
@@ -3467,6 +3461,19 @@ class NovxFile(File):
     def _keep_word_count(self):
         if not self.wcLog:
             return
+
+        actualCountInt, actualTotalCountInt = self.count_words()
+        actualCount = str(actualCountInt)
+        actualTotalCount = str(actualTotalCountInt)
+        latestDate = list(self.wcLog)[-1]
+        latestCount = self.wcLog[latestDate][0]
+        latestTotalCount = self.wcLog[latestDate][1]
+        if actualCount != latestCount or actualTotalCount != latestTotalCount:
+            try:
+                fileDateIso = date.fromtimestamp(self.timestamp).isoformat()
+            except:
+                fileDateIso = date.today().isoformat()
+            self.wcLogUpdate[fileDateIso] = [actualCount, actualTotalCount]
 
     def _postprocess_xml_file(self, filePath):
         with open(filePath, 'r', encoding='utf-8') as f:
@@ -3812,6 +3819,18 @@ class NovxFile(File):
         elif self.novel.sections[scId].scType < 2:
             self.novel.sections[scId].sectionContent = ''
 
+    def _read_word_count_log(self, xmlRoot):
+        xmlWclog = xmlRoot.find('PROGRESS')
+        if xmlWclog is None:
+            return
+
+        for xmlWc in xmlWclog.iterfind('WC'):
+            wcDate = verified_date(xmlWc.find('Date').text)
+            wcCount = verified_int_string(xmlWc.find('Count').text)
+            wcTotalCount = verified_int_string(xmlWc.find('WithUnused').text)
+            if wcDate and wcCount and wcTotalCount:
+                self.wcLog[wcDate] = [wcCount, wcTotalCount]
+
     def _set_aka(self, xmlElement, prjElement):
         if prjElement.aka:
             ET.SubElement(xmlElement, 'Aka').text = prjElement.aka
@@ -3903,6 +3922,7 @@ class NovxConverter():
         source.novel = Novel(tree=NvTree())
         source.read()
         target.novel = source.novel
+        target.wcLog = source.wcLog
         target.write()
         self.ui.set_info_how(f'File written: "{norm_path(targetPath)}".')
 

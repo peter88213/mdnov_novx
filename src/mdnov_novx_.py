@@ -58,6 +58,7 @@ class NovxConverter():
         source.novel = Novel(tree=NvTree())
         source.read()
         target.novel = source.novel
+        target.wcLog = source.wcLog
         target.write()
         self.ui.set_info_how(f'File written: "{norm_path(targetPath)}".')
 

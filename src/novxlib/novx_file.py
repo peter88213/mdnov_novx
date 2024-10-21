@@ -28,6 +28,8 @@ from mdnvlib.novx_globals import _
 from mdnvlib.novx_globals import list_to_string
 from mdnvlib.novx_globals import norm_path
 from mdnvlib.novx_globals import string_to_list
+from mdnvlib.novx_globals import verified_date
+from mdnvlib.novx_globals import verified_int_string
 from novxlib.xml_indent import indent
 import xml.etree.ElementTree as ET
 
@@ -137,17 +139,8 @@ class NovxFile(File):
         self._read_chapters(xmlRoot)
         self._read_plot_lines(xmlRoot)
         self._read_project_notes(xmlRoot)
+        self._read_word_count_log(xmlRoot)
         self.adjust_section_types()
-
-        #--- Read the word count log.
-        xmlWclog = xmlRoot.find('PROGRESS')
-        if xmlWclog is not None:
-            for xmlWc in xmlWclog.iterfind('WC'):
-                wcDate = xmlWc.find('Date').text
-                wcCount = xmlWc.find('Count').text
-                wcTotalCount = xmlWc.find('WithUnused').text
-                if wcDate and wcCount and wcTotalCount:
-                    self.wcLog[wcDate] = [wcCount, wcTotalCount]
         self._get_timestamp()
         self._keep_word_count()
 
@@ -555,6 +548,19 @@ class NovxFile(File):
         """Keep the actual wordcount, if not logged."""
         if not self.wcLog:
             return
+
+        actualCountInt, actualTotalCountInt = self.count_words()
+        actualCount = str(actualCountInt)
+        actualTotalCount = str(actualTotalCountInt)
+        latestDate = list(self.wcLog)[-1]
+        latestCount = self.wcLog[latestDate][0]
+        latestTotalCount = self.wcLog[latestDate][1]
+        if actualCount != latestCount or actualTotalCount != latestTotalCount:
+            try:
+                fileDateIso = date.fromtimestamp(self.timestamp).isoformat()
+            except:
+                fileDateIso = date.today().isoformat()
+            self.wcLogUpdate[fileDateIso] = [actualCount, actualTotalCount]
 
     def _postprocess_xml_file(self, filePath):
         """Postprocess an xml file created by ElementTree.
@@ -966,6 +972,19 @@ class NovxFile(File):
         elif self.novel.sections[scId].scType < 2:
             # normal or unused section; not a stage
             self.novel.sections[scId].sectionContent = ''
+
+    def _read_word_count_log(self, xmlRoot):
+        """Read the word count log from the xml element tree."""
+        xmlWclog = xmlRoot.find('PROGRESS')
+        if xmlWclog is None:
+            return
+
+        for xmlWc in xmlWclog.iterfind('WC'):
+            wcDate = verified_date(xmlWc.find('Date').text)
+            wcCount = verified_int_string(xmlWc.find('Count').text)
+            wcTotalCount = verified_int_string(xmlWc.find('WithUnused').text)
+            if wcDate and wcCount and wcTotalCount:
+                self.wcLog[wcDate] = [wcCount, wcTotalCount]
 
     def _set_aka(self, xmlElement, prjElement):
         if prjElement.aka:

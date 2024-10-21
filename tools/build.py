@@ -9,7 +9,7 @@ import os
 import inliner
 from shutil import rmtree
 
-VERSION = '0.1.0'
+VERSION = '0.2.0'
 PRJ_NAME = 'mdnov_novx'
 COPY_MDNVLIB = False
 
