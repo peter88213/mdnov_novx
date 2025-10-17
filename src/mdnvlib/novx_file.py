@@ -30,7 +30,7 @@ from mdnvlib.novx_globals import norm_path
 from mdnvlib.novx_globals import string_to_list
 from mdnvlib.novx_globals import verified_date
 from mdnvlib.novx_globals import verified_int_string
-from novxlib.xml_indent import indent
+from mdnvlib.xml_indent import indent
 import xml.etree.ElementTree as ET
 
 
@@ -115,21 +115,7 @@ class NovxFile(File):
         """
         self.xmlTree = ET.parse(self.filePath)
         xmlRoot = self.xmlTree.getroot()
-        try:
-            majorVersionStr, minorVersionStr = xmlRoot.attrib['version'].split('.')
-            majorVersion = int(majorVersionStr)
-            minorVersion = int(minorVersionStr)
-        except:
-            raise Error(f'{_("No valid version found in file")}: "{norm_path(self.filePath)}".')
-
-        if majorVersion > self.MAJOR_VERSION:
-            raise Error(_('The project "{}" was created with a newer novelibre version.').format(norm_path(self.filePath)))
-
-        elif majorVersion < self.MAJOR_VERSION:
-            raise Error(_('The project "{}" was created with an outdated novelibre version.').format(norm_path(self.filePath)))
-
-        elif minorVersion > self.MINOR_VERSION:
-            raise Error(_('The project "{}" was created with a newer novelibre version.').format(norm_path(self.filePath)))
+        self._check_version(xmlRoot)
 
         self.novel.tree.reset()
         self._read_project(xmlRoot)
@@ -489,6 +475,26 @@ class NovxFile(File):
                 newlines.append(line)
             sectionContent = '\n'.join(newlines)
             xmlSection.append(ET.fromstring(f'<Content>\n{sectionContent}\n</Content>'))
+
+    def _check_version(self, xmlRoot):
+        try:
+            majorVersionStr, minorVersionStr = xmlRoot.attrib['version'].split('.')
+            majorVersion = int(majorVersionStr)
+            minorVersion = int(minorVersionStr)
+        except:
+            raise Error(f'{_("No valid version found in file")}: "{norm_path(self.filePath)}".')
+
+        if majorVersion > self.MAJOR_VERSION:
+            raise Error(_('The project "{}" was created with a newer novelibre version.').format(norm_path(self.filePath)))
+
+        elif majorVersion < self.MAJOR_VERSION:
+            raise Error(_('The project "{}" was created with an outdated novelibre version.').format(norm_path(self.filePath)))
+
+        elif minorVersion > self.MINOR_VERSION:
+            # Ignore the novx minor file version number.
+            return
+
+            raise Error(_('The project "{}" was created with a newer novelibre version.').format(norm_path(self.filePath)))
 
     def _get_aka(self, xmlElement, prjElement):
         prjElement.aka = self._get_element_text(xmlElement, 'Aka')

@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """Converter between .mdnov and .novx file format.
 
-usage: mdnov_yw7.py sourcefile
+usage: mdnov_novx.py sourcefile
 
 Version @release
-Requires Python 3.6+
+Requires Python 3.7+
 Copyright (c) 2024 Peter Triesberger
 For further information see https://github.com/peter88213/mdnov_novx
 License: GNU LGPLv3 (https://www.gnu.org/licenses/lgpl-3.0.en.html)
@@ -27,7 +27,7 @@ from mdnvlib.mdnov.mdnov_file import MdnovFile
 from mdnvlib.model.novel import Novel
 from mdnvlib.model.nv_tree import NvTree
 from mdnvlib.novx_globals import norm_path
-from novxlib.novx_file import NovxFile
+from mdnvlib.novx_file import NovxFile
 
 
 class NovxConverter():

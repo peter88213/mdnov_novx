@@ -8,7 +8,7 @@ This is a command line tool for migrating novel projects between
 
 ## Requirements
 
-- A Python installation (version 3.6 or newer).
+- A Python installation (version 3.7 or newer).
 
 ## Download
 

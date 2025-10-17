@@ -9,7 +9,7 @@ import os
 import inliner
 from shutil import rmtree
 
-VERSION = '0.2.0'
+VERSION = '0.3.0'
 PRJ_NAME = 'mdnov_novx'
 COPY_MDNVLIB = False
 
@@ -35,13 +35,6 @@ def main():
     os.makedirs(distDir)
     inliner.run(
         sourceFile,
-        distFile,
-        'novxlib',
-        '../../mdnov_novx/src/',
-        copymdnvlib=COPY_MDNVLIB,
-        )
-    inliner.run(
-        distFile,
         distFile,
         'mdnvlib',
         '../../mdnov_novx/src/',
