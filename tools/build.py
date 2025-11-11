@@ -6,12 +6,11 @@ For further information see https://github.com/peter88213/mdnov_novx
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
-import inliner
+import search_modules
 from shutil import rmtree
 
 VERSION = '0.3.0'
 PRJ_NAME = 'mdnov_novx'
-COPY_MDNVLIB = False
 
 
 def insert_version_number(source, version='unknown'):
@@ -33,12 +32,23 @@ def main():
     except FileNotFoundError:
         pass
     os.makedirs(distDir)
-    inliner.run(
+    search_modules.run(
         sourceFile,
-        distFile,
-        'mdnvlib',
+        'jsonnovxlib',
         '../../mdnov_novx/src/',
-        copymdnvlib=COPY_MDNVLIB,
+        distDir
+        )
+    search_modules.run(
+        sourceFile,
+        'mdnvlib',
+        '../../mdnovel/src/',
+        distDir
+        )
+    search_modules.run(
+        sourceFile,
+        'nvlib',
+        '../../novelibre/src/',
+        distDir
         )
     insert_version_number(distFile, version=VERSION)
 
