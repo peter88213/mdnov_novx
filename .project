@@ -3,6 +3,8 @@
 	<name>mdnov_novx</name>
 	<comment></comment>
 	<projects>
+		<project>mdnovel</project>
+		<project>novelibre</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

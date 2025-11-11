@@ -22,37 +22,37 @@ GNU General Public License for more details.
 import os
 import sys
 
-from mdnvlib.converter.ui_cmd import UiCmd
-from mdnvlib.mdnov.mdnov_file import MdnovFile
-from mdnvlib.model.novel import Novel
-from mdnvlib.model.nv_tree import NvTree
-from mdnvlib.novx_globals import norm_path
-from mdnvlib.novx_file import NovxFile
+from jsonnovxlib.novx_cnv_file import NovxCnvFile
+from mdnvlib.json.json_file import JsonFile
+from nvlib.model.data.novel import Novel
+from nvlib.model.data.nv_tree import NvTree
+from nvlib.novx_globals import norm_path
+from nvlib.user_interface.ui_cmd import UiCmd
 
 
 class NovxConverter():
 
     def run(self, sourcePath):
         sourceRoot, sourceExtension = os.path.splitext(sourcePath)
-        if sourceExtension == NovxFile.EXTENSION:
-            targetPath = f'{sourceRoot}{MdnovFile.EXTENSION}'
-            source = NovxFile(sourcePath)
-            target = MdnovFile(targetPath)
-        elif sourceExtension == MdnovFile.EXTENSION:
-            targetPath = f'{sourceRoot}{NovxFile.EXTENSION}'
-            source = MdnovFile(sourcePath)
-            target = NovxFile(targetPath)
+        if sourceExtension == NovxCnvFile.EXTENSION:
+            targetPath = f'{sourceRoot}{JsonFile.EXTENSION}'
+            source = NovxCnvFile(sourcePath)
+            target = JsonFile(targetPath)
+        elif sourceExtension == JsonFile.EXTENSION:
+            targetPath = f'{sourceRoot}{NovxCnvFile.EXTENSION}'
+            source = JsonFile(sourcePath)
+            target = NovxCnvFile(targetPath)
         else:
-            self.ui.set_info_how(f'!File format "{sourceExtension}" is not supported.')
+            self.ui.set_info(f'!File format "{sourceExtension}" is not supported.')
             return
 
         if not os.path.isfile(sourcePath):
-            self.ui.set_info_how(f'!File not found: "{sourcePath}".')
+            self.ui.set_info(f'!File not found: "{sourcePath}".')
             return
 
         if os.path.isfile(targetPath):
             if not self.ui.ask_yes_no(f'Overwrite existing file "{norm_path(targetPath)}"?'):
-                self.ui.set_info_how('!Action canceled by user.')
+                self.ui.set_info('!Action canceled by user.')
                 return
 
         source.novel = Novel(tree=NvTree())
@@ -60,7 +60,7 @@ class NovxConverter():
         target.novel = source.novel
         target.wcLog = source.wcLog
         target.write()
-        self.ui.set_info_how(f'File written: "{norm_path(targetPath)}".')
+        self.ui.set_info(f'File written: "{norm_path(targetPath)}".')
 
 
 def main(sourcePath, suffix=''):
