@@ -80,6 +80,7 @@ class NovxCnvFile(NovxFile):
         if not text:
             return
 
+        text = text.strip()
         while '\n\n' in text:
             text = text.replace('\n\n', '@%&').strip()
         while '***' in text:
