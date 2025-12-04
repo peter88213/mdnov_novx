@@ -27,7 +27,7 @@ from mdnvlib.json.json_file import JsonFile
 from nvlib.model.data.novel import Novel
 from nvlib.model.data.nv_tree import NvTree
 from nvlib.novx_globals import norm_path
-from nvlib.user_interface.ui_cmd import UiCmd
+from nvlib.alternative_ui.ui_cmd import UiCmd
 
 
 class NovxConverter():
